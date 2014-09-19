@@ -1,10 +1,10 @@
 /*global simply */
 
-(function () {
+(function (root) {
     'use strict';
 
     console.log('Simply.js demo!');
-    console.log(window);
+    console.log('Global context', Object.prototype.toString.call(root)); // [object GlobalObject]
 
     simply.on('singleClick', function (e) {
         console.log(util2.format('single clicked $button!', e));
@@ -27,4 +27,4 @@
         body: 'This is a demo. Press buttons or tap the watch!'
     }, true);
 
-}());
+}(this));
