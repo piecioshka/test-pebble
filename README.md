@@ -1,3 +1,3 @@
 # test-pebble
 
-📒⌚ Testing create application for Pebble Smart Watch
+📒 ⌚ Testing create application for Pebble Smart Watch
